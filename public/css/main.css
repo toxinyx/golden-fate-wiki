@@ -23,17 +23,6 @@
 }
 
 /* accents */
-.button {
-    background-color: #5e6545;
-    border: none;
-    margin: auto;
-    color: white;
-    font-family: "kenyan_coffee_rg", serif;
-    cursor: pointer;
-}
-.button:hover {
-    background-color: #2d321b;
-}
 
 /* main components */
 
@@ -86,6 +75,15 @@
     margin-left: 25%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, 50%);
+    background-color: #5e6545;
+    border: none;
+    margin: auto;
+    color: white;
+    font-family: "kenyan_coffee_rg", serif;
+    cursor: pointer;
+}
+.button1:hover {
+    background-color: #2d321b;
 }
 .button2 {
     width: 48%;
@@ -93,4 +91,13 @@
     margin-left: 75%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    background-color: #5e6545;
+    border: none;
+    margin: auto;
+    color: white;
+    font-family: "kenyan_coffee_rg", serif;
+    cursor: pointer;
+}
+.button2:hover {
+    background-color: #2d321b;
 }
