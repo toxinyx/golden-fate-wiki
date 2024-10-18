@@ -1,15 +1,25 @@
+@font-face {
+    font-family: 'mewatonia';
+    src: url('mewatonia-webfont.woff2') format('woff2'),
+         url('mewatonia-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* main.html -- sidebar */
 .dropbtn {
-  background-color: #3498DB;
+  text-align: center;
+  border: 1px solid #c48d2e;
+  background-color: #878B5A;
   color: white;
   padding: 16px;
   font-size: 16px;
-  border: none;
   cursor: pointer;
+  font-family: "mewatonia", serif;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: #2980B9;
+  background-color: #5E6545;
 }
 
 .dropdown {
