@@ -1,8 +1,8 @@
 /* fonts */
 @font-face {
-    font-family: 'trends';
-    src: url('trends-webfont.woff2') format('woff2'),
-         url('trends-webfont.woff') format('woff');
+    font-family: 'autography';
+    src: url('autography-webfont.woff2') format('woff2'),
+         url('autography-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -45,9 +45,11 @@
 .titlecard-hookline {
     text-align: center;
     margin: auto;
-    width: 38%;
+    width: 32%;
+    border-radius: 25px;
     background-color: #5e6545;
+    color: white;
     padding: 10px;
     font-size: 13px;
-    font-family: 'trends';
+    font-family: 'autography';
 }
