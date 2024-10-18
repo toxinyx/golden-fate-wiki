@@ -31,6 +31,7 @@
     background:url("https://i.ibb.co/23spyrv/wp12237488-fantasy-landscape-4k-wallpapers.jpg"); /* BACKGROUND IMAGE TO BE CHANGED */
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     margin: auto;
     margin-top: -75px;
     height: 250px;
