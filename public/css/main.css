@@ -76,7 +76,6 @@
     transform: translate(-50%, 50%);
     background-color: #5e6545;
     border: none;
-    margin: auto;
     color: white;
     font-family: "nostalgic_whispers", serif;
     cursor: pointer;
@@ -92,7 +91,6 @@
     transform: translate(-50%, -50%);
     background-color: #5e6545;
     border: none;
-    margin: auto;
     color: white;
     font-family: "nostalgic_whispers", serif;
     cursor: pointer;
