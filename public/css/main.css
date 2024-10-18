@@ -23,6 +23,13 @@
 }
 
 /* accents */
+.button {
+    background-color: #5e6545;
+    border: 1px solid #c48d2e;
+    margin: auto;
+    color: white;
+    font-family: "kenyan_coffee_rg", serif;
+}
 
 /* main components */
 
@@ -67,11 +74,4 @@
     line-height: 11px;
     font-size: 24px;
     font-family: "autography", serif;
-}
-.nav-button-main {
-    background-color: #5e6545;
-    border: 1px solid #c48d2e;
-    margin: auto;
-    color: white;
-    font-family: "kenyan_coffee_rg", serif;
 }
