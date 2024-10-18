@@ -1,3 +1,12 @@
+/* fonts */
+@font-face {
+    font-family: 'trends';
+    src: url('trends-webfont.woff2') format('woff2'),
+         url('trends-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* accents */
 
 /* main components */
@@ -14,13 +23,15 @@
 .titlecard {
     background:url(https://i.pinimg.com/736x/48/ed/3f/48ed3f51c7b6e3b4e9b4a6e8c089a826.jpg); /* BACKGROUND IMAGE TO BE CHANGED */
     margin: auto;
-    height: 300px;
-    width: 99%;
+    margin-top: -75px;
+    height: 250px;
+    width: 98%;
 }
 .titlecard-title {
     text-align: center;
-    font-family: "Georgia", serif;
-    font-weight: bold;
+    font-family: "trends", serif;
+    font-weight: regular;
     font-size: 90px;
     color: white;
+    padding-top: 65px;
 }
