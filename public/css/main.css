@@ -6,6 +6,13 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'sketch_gothic_school';
+    src: url('sketch_gothic_school-webfont.woff2') format('woff2'),
+         url('sketch_gothic_school-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* accents */
 
@@ -29,9 +36,14 @@
 }
 .titlecard-title {
     text-align: center;
-    font-family: "trends", serif;
+    font-family: "sketch_gothic_school", serif;
     font-weight: regular;
     font-size: 90px;
     color: white;
     padding-top: 65px;
+}
+.titlecard-hookline {
+    text-align: center;
+    background-color: #5e6545;
+    padding: 10px;
 }
