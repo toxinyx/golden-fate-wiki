@@ -37,13 +37,17 @@
 .titlecard-title {
     text-align: center;
     font-family: "sketch_gothic_school", serif;
-    font-weight: regular;
     font-size: 90px;
     color: white;
     padding-top: 65px;
+    margin-bottom: -11px;
 }
 .titlecard-hookline {
     text-align: center;
+    margin: auto;
+    width: 38%;
     background-color: #5e6545;
     padding: 10px;
+    font-size: 13px;
+    font-family: 'trends';
 }
