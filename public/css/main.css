@@ -11,17 +11,19 @@
 
 /* main components */
 .container {
-  margin: auto;
-  width: 99%;
+    margin: auto;
+    width: 99%;
 }
 /* main.html - header */
 .titlecard {
-  background:url(https://i.pinimg.com/736x/48/ed/3f/48ed3f51c7b6e3b4e9b4a6e8c089a826.jpg); /* BACKGROUND IMAGE TO BE CHANGED */
-  margin: auto;
-  width: 80%;
-  height: 300px;
+    background:url(https://i.pinimg.com/736x/48/ed/3f/48ed3f51c7b6e3b4e9b4a6e8c089a826.jpg); /* BACKGROUND IMAGE TO BE CHANGED */
+    margin: auto;
+    width: 80%;
+    height: 300px;
 }
 .titlecard-title {
-  text-align: center;
-  font-family: "trendsregular", sans-serif;
+    text-align: center;
+    font-family: "trendsregular", sans-serif;
+    font-size: 90px;
+    color: white;
 }
