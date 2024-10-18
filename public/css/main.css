@@ -14,12 +14,11 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'kenyan_coffee_rg';
-    src: url('kenyan_coffee_rg-webfont.woff2') format('woff2'),
-         url('kenyan_coffee_rg-webfont.woff') format('woff');
+    font-family: 'nostalgic_whispers';
+    src: url('nostalgicwhispers-regular-webfont.woff2') format('woff2'),
+         url('nostalgicwhispers-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 /* accents */
@@ -79,7 +78,7 @@
     border: none;
     margin: auto;
     color: white;
-    font-family: "kenyan_coffee_rg", serif;
+    font-family: "nostalgic_whispers", serif;
     cursor: pointer;
 }
 .button1:hover {
@@ -95,7 +94,7 @@
     border: none;
     margin: auto;
     color: white;
-    font-family: "kenyan_coffee_rg", serif;
+    font-family: "nostalgic_whispers", serif;
     cursor: pointer;
 }
 .button2:hover {
