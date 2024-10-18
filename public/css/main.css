@@ -23,13 +23,16 @@
 }
 
 /* accents */
-button {
+.button {
     background-color: #5e6545;
     border: none;
     margin: auto;
     color: white;
     font-family: "kenyan_coffee_rg", serif;
     cursor: pointer;
+}
+.button:hover {
+    background-color: #2d321b;
 }
 
 /* main components */
