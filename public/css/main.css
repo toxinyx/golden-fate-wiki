@@ -1,6 +1,10 @@
 /* accents */
 
 /* main components */
+body {
+    background-color: black;
+}
+
 .container {
     margin: auto;
     width: 80%;
