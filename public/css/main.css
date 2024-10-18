@@ -25,10 +25,11 @@
 /* accents */
 button {
     background-color: #5e6545;
-    border: 1px solid #c48d2e;
+    border: none;
     margin: auto;
     color: white;
     font-family: "kenyan_coffee_rg", serif;
+    cursor: pointer;
 }
 
 /* main components */
