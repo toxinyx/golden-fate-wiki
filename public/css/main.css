@@ -1,9 +1,6 @@
 /* accents */
 
 /* main components */
-body {
-    background-color: black;
-}
 
 .container {
     margin: auto;
@@ -16,6 +13,7 @@ body {
     background:url(https://i.pinimg.com/736x/48/ed/3f/48ed3f51c7b6e3b4e9b4a6e8c089a826.jpg); /* BACKGROUND IMAGE TO BE CHANGED */
     margin: auto;
     height: 300px;
+    width: 90%;
 }
 .titlecard-title {
     text-align: center;
