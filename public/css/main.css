@@ -23,7 +23,7 @@
     margin-top: 40px;
     width: 80%;
     background-color: #E7E4CF;
-    border: 1px solid #c48d2e;
+    border: 2px solid #c48d2e;
     box-shadow: 5px 10px 18px #000000;
 }
 /* main.html - header */
@@ -44,12 +44,15 @@
 }
 .titlecard-hookline {
     text-align: center;
+    border: 1px solid #c48d2e;
     margin: auto;
-    width: 32%;
+    width: 45%;
     border-radius: 25px;
     background-color: #5e6545;
     color: white;
-    padding: 10px;
-    font-size: 13px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    line-height: 11px;
+    font-size: 24px;
     font-family: "autography", serif;
 }
