@@ -7,9 +7,9 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'sketch_gothic_school';
-    src: url('sketch_gothic_school-webfont.woff2') format('woff2'),
-         url('sketch_gothic_school-webfont.woff') format('woff');
+    font-family: 'old_englished_boots';
+    src: url('old_englished_boots-webfont.woff2') format('woff2'),
+         url('old_englished_boots-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -36,7 +36,7 @@
 }
 .titlecard-title {
     text-align: center;
-    font-family: "sketch_gothic_school", serif;
+    font-family: "old_englished_boots", serif;
     font-size: 90px;
     color: white;
     padding-top: 65px;
