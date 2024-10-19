@@ -17,6 +17,14 @@
 
 .button3 {
     font-family: "heavitas", serif;
+    width: 90%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #363237;
+    padding: 10px;
+    margin-bottom: 15px;
 }
 
 .dropbtn {
