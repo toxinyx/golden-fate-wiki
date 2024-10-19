@@ -14,7 +14,8 @@
 }
 
 .boxxed {
-    font-family: "timeless", serif;
+    text-align: center;
+    font-family: "Times New Roman", serif;
     text-align: left;
     color: #241b0b;
 }
@@ -30,4 +31,7 @@
 .boxxed-content {
     margin-top: -30px;
     text-align: center;
+    font-family: "Times New Roman", serif;
+    text-align: left;
+    color: #241b0b;
 }
