@@ -7,6 +7,14 @@
 }
 
 /* main.html -- sidebar */
+.divider-text {
+   text-align: center;
+    font-family: "nostalgic_whispers", serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
 .dropbtn {
   text-align: center;
   border: 1px solid #c48d2e;
