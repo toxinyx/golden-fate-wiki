@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'mewatonia';
-    src: url('mewatonia-webfont.woff2') format('woff2'),
-         url('mewatonia-webfont.woff') format('woff');
+    font-family: 'heavitas';
+    src: url('heavitas-webfont.woff2') format('woff2'),
+         url('heavitas-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,6 +13,10 @@
     font-weight: bold;
     font-size: 20px;
     font-style: italic;
+}
+
+.button3 {
+    font-family: "heavitas", serif;
 }
 
 .dropbtn {
