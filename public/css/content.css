@@ -4,11 +4,17 @@
          url('universalexploration_personal_use_only-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
+}
+@font-face {
+    font-family: 'timeless';
+    src: url('timeless-webfont.woff2') format('woff2'),
+         url('timeless-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .boxxed {
-    font-family: "Mewatonia", serif;
+    font-family: "timeless", serif;
     text-align: left;
     color: #241b0b;
 }
