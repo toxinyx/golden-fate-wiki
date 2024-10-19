@@ -7,6 +7,12 @@
 
 }
 
+.boxxed {
+    font-family: "Mewatonia", serif;
+    text-align: left;
+    color: #241b0b;
+}
+
 .boxxed-title {
   font-family: "universal_exploration", serif;
   text-align: center;
