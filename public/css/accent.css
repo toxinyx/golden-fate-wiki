@@ -7,6 +7,11 @@ strong {
   color: #b87f14;
 }
 
+em {
+  color: #765833;
+  font-style: italic;
+}
+
 /* Tables */
 table {
   margin-bottom: 1rem;
