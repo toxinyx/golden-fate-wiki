@@ -1,10 +1,8 @@
 <div class="sidebar">
     <p class="divider-text">Heiwa's World</p>
     <button class="button3">Archipelago</button>
-    <button class="button4">Notable Locations</button>
-    <button class="button3">Culture</button>
     
-    <button onclick="myFunction()" class="dropbtn">Religion</button>
+    <button onclick="myFunction()" class="dropbtn">Notable Locations</button>
   <div id="religions" class="dropdown-content">
     <a href="#home">Home</a>
     <a href="#about">About</a>
@@ -31,5 +29,63 @@ window.onclick = function(event) {
 }
 </script>
     
-    <button class="button4">Holidays</button>
+    <button class="button3">Culture</button>
+
+    <button onclick="myFunction()" class="dropbtn">Holidays</button>
+  <div id="religions" class="dropdown-content">
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+    <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("religions").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+    
+    <button onclick="myFunction()" class="dropbtn">Religion</button>
+  <div id="religions" class="dropdown-content">
+    <a href="#home">Nimira <strong>[Moon]</strong></a>
+    <a href="#about">Pyrrhus <strong>[Sun]</strong></a>
+    <a href="#contact">Nivalis <strong>[Winter]</strong></a>
+    <a href="#contact">Aurelia <strong>[Autumn]</strong></a>
+    <a href="#contact">Torravos <strong>[Summer]</strong></a>
+    <a href="#contact">Isaiwen <strong>[Spring]</strong></a>
+  </div>
+    <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("religions").classList.toggle("show");
+}
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+    
 </div>
