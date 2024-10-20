@@ -34,7 +34,7 @@
           document.getElementById("religions").classList.toggle("show");
         }
         // Close the dropdown if the user clicks outside of it
-        window.onclick = function(num) {
+        window.onclick = function(event) {
           if (!event.target.matches('.dropbtn')) {
             var dropdowns = document.getElementsByClassName("dropdown-content" + num);
             var i;
