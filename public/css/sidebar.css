@@ -30,7 +30,7 @@
     background-color: #5E6545;
 }
 
-.dropbtn1, .dropbtn2, .dropbtn3 {
+.dropbtn {
     font-family: "heavitas", serif;
     width: 90%;
     margin-left: 5%;
@@ -42,7 +42,7 @@
     margin-bottom: 15px;
 }
 
-.dropbtn1:hover, .dropbtn2:hover, .dropbtn3:hover, .dropbtn:focus, .dropbtn2:focus, .dropbtn3:focus {
+.dropbtn:hover, .dropbtn:focus {
   background-color: #5E6545;
 }
 
@@ -51,7 +51,7 @@
   display: inline-block;
 }
 
-.dropdown-content, .dropdown-content2, .dropdown-content3 {
+.dropdown-content {
   display: none;
     position: absolute;
     background-color: #5E6545;
