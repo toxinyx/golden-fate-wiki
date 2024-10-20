@@ -26,15 +26,15 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction(num) {
-  document.getElementById("myDropdown" + num).classList.toggle("show");
+  document.getElementById("myDropdown" + num).classList.add("show");
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(e, num) {
+window.onclick = function(e) {
   if (!e.target.matches('.dropbtn' + num)) {
-  var myDropdown = document.getElementById("myDropdown" + num);
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
+  var theDropdown = document.getElementById("myDropdown" + num);
+    if (theDropdown.classList.contains('show')) {
+      theDropdown.classList.remove('show');
     }
   }
 }
