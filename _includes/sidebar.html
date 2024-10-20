@@ -3,7 +3,7 @@
     <button class="button3">Archipelago</button>
     
     <button onclick="myFunction(1)" class="dropbtn">Notable Locations</button>
-        <div id="locations" class="dropdown-content">
+        <div id="myDropdown1" class="dropdown-content1">
           <a href="publicgardens.html">Public Gardens</a>
           <a href="suhaiforests.html">Sūhai Forests</a>
         </div>
@@ -11,14 +11,14 @@
     <button class="button3">Culture</button>
 
     <button onclick="myFunction(2)" class="dropbtn2">Holidays</button>
-        <div id="holidays" class="dropdown-content2">
+        <div id="myDropdown2" class="dropdown-content2">
             <a href="#home">Home</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
         </div>
 
     <button onclick="myFunction(3)" class="dropbtn">Religion</button>
-      <div id="religions" class="dropdown-content3">
+      <div id="myDropdown3" class="dropdown-content3">
         <a href="nimira.html">Nimira <strong>[Moon]</strong></a>
         <a href="pyrrhus.html">Pyrrhus <strong>[Sun]</strong></a>
         <a href="nivalis.html">Nivalis <strong>[Winter]</strong></a>
@@ -30,8 +30,8 @@
         <script>
         /* When the user clicks on the button, 
         toggle between hiding and showing the dropdown content */
-        function myFunction() {
-          document.getElementById("religions").classList.toggle("show");
+        function myFunction(num) {
+          document.getElementById("myDropdown" + num).classList.toggle("show");
         }
         // Close the dropdown if the user clicks outside of it
         window.onclick = function(event) {
