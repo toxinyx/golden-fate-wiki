@@ -74,6 +74,6 @@
     display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
-
-.show {display: block;}
+.show {
+    display: block;
+}
