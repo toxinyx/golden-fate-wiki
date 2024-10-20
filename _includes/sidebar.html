@@ -6,7 +6,7 @@
         <div id="myDropdown3" class="dropdown-content3">
             <a href="nimira.html">Nimira <strong>[Moon]</strong></a>
             <a href="pyrrhus.html">Pyrrhus <strong>[Sun]</strong></a>
-       </div>
+        </div>
     
     <button class="button3">Culture</button>
 
@@ -35,8 +35,8 @@
         }
         // Close the dropdown if the user clicks outside of it
         window.onclick = function(event) {
-          if (!event.target.matches('.dropbtn')) {
-            var dropdowns = document.getElementsByClassName("dropdown-content");
+          if (!event.target.matches('.dropbtn' + num)) {
+            var dropdowns = document.getElementsByClassName("dropdown-content" + num);
             var i;
             for (i = 0; i < dropdowns.length; i++) {
               var openDropdown = dropdowns[i];
