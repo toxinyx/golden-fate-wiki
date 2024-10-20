@@ -25,16 +25,20 @@
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
-function myFunction(num) {
-  document.getElementById("myDropdown" + num).classList.add("show");
-}
+let closeDropdown = function() {
 
-// Close the dropdown if the user clicks outside of it
-window.addEventListener('load', function() {
-    //click listener on the document
-    document.querySelectorAll('.dropdown-content').forEach(function(el) {
-      if (el !== event.target) el.classList.remove('show')
-      // close any showing dropdown that isn't the one just clicked
-    });
-};
+}
+function myFunction(num) {
+  closeDropdown();
+  let el = document.getElementById("myDropdown" + num);  
+  if (el) {
+    el.classList.toggle("show");
+    closeDropdown = function() {
+        el.classList.remove("show");
+    }
+  } else {
+    closeDropdown = function() {
+    } 
+  }
+}
 </script>
