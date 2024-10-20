@@ -30,7 +30,7 @@ function myFunction(num) {
 }
 
 // Close the dropdown if the user clicks outside of it
-window.onclick = function(e) {
+window.onclick = function(e, num) {
   if (!e.target.matches('.dropbtn' + num)) {
   var myDropdown = document.getElementById("myDropdown" + num);
     if (myDropdown.classList.contains('show')) {
