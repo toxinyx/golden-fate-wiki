@@ -28,12 +28,7 @@ toggle between hiding and showing the dropdown content */
 let closeDropdown = function() {
 
 }
-var oldselection = 0;
 function myFunction(num) {
-  if(oldselection != 0){
-  document.getElementById('myDropdown'+oldselection).classList.remove("show");
-// hiding the old dropdown
-}
   closeDropdown();
   let el = document.getElementById("myDropdown" + num);  
   if (el) {
@@ -45,7 +40,17 @@ function myFunction(num) {
     closeDropdown = function() {
     } 
   }
-oldselection = num;
-}    
-
+}
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
 </script>
