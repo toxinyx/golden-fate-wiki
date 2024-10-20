@@ -1,7 +1,7 @@
 <div class="sidebar">
     <p class="divider-text">Heiwa's World</p>
     <button class="button3">Archipelago</button>
-    <button onclick="myFunction(1)" class="dropbtn">Notable Locations</button>
+    <button onclick="myFunction()" class="dropbtn">Notable Locations</button>
      <div id="locations" class="dropdown-content">
         <a href="publicgardens.html">Public Gardens</a>
         <a href="suhaiforests.html">Sūhai Forests</a>
@@ -9,13 +9,13 @@
     <script>
         /* When the user clicks on the button, 
         toggle between hiding and showing the dropdown content */
-    function myFunction(1) {
-      document.getElementById("locations" + 1).classList.toggle("show");
+    function myFunction() {
+      document.getElementById("locations").classList.toggle("show");
     }
         // Close the dropdown if the user clicks outside of it
     window.onclick = function(event) {
       if (!event.target.matches('.dropbtn')) {
-        var dropdowns = document.getElementsByClassName("dropdown-content" + 1);
+        var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
         for (i = 0; i < dropdowns.length; i++) {
           var openDropdown = dropdowns[i];
