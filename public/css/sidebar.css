@@ -30,7 +30,7 @@
     background-color: #5E6545;
 }
 
-.dropbtn {
+.dropbtn, .dropbtn2, .dropbtn3 {
     font-family: "heavitas", serif;
     width: 90%;
     margin-left: 5%;
@@ -42,7 +42,7 @@
     margin-bottom: 15px;
 }
 
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover, .dropbtn2:hover, .dropbtn3:hover, .dropbtn:focus, .dropbtn2:focus, .dropbtn3:focus {
   background-color: #5E6545;
 }
 
