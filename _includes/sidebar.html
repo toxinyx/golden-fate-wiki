@@ -4,7 +4,7 @@
     
     <button class="button3">Culture</button>
 
-    <button onclick="myFunction()" class="dropbtn">Religion</button>
+    <button onclick="myFunction(1)" class="dropbtn">Holidays</button>
         <div id="myDropdown" class="dropdown-content">
             <a href="nimira.html">Nimira <strong>[Moon]</strong></a>
             <a href="pyrrhus.html">Pyrrhus <strong>[Sun]</strong></a>
@@ -14,16 +14,29 @@
             <a href="isaiwen.html">Isaiwen <strong>[Spring]</strong></a>
         </div>
 
-        <script>
+    <button onclick="myFunction(2)" class="dropbtn">Religion</button>
+        <div id="myDropdown2" class="dropdown-content2">
+            <a href="nimira.html">Nimira <strong>[Moon]</strong></a>
+            <a href="pyrrhus.html">Pyrrhus <strong>[Sun]</strong></a>
+            <a href="nivalis.html">Nivalis <strong>[Winter]</strong></a>
+            <a href="aurelia.html">Aurelia <strong>[Autumn]</strong></a>
+            <a href="torroavos.html">Torravos <strong>[Summer]</strong></a>
+            <a href="isaiwen.html">Isaiwen <strong>[Spring]</strong></a>
+        </div>
+
+        
+</div>
+
+<script>
             /* When the user clicks on the button, 
             toggle between hiding and showing the dropdown content */
-            function myFunction() {
-              document.getElementById("myDropdown").classList.toggle("show");
+            function myFunction(num) {
+              document.getElementById("myDropdown" + num).classList.toggle("show");
             }
             // Close the dropdown if the user clicks outside of it
             window.onclick = function(event) {
               if (!event.target.matches('.dropbtn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var dropdowns = document.getElementsByClassName("dropdown-content" + num);
                 var i;
                 for (i = 0; i < dropdowns.length; i++) {
                   var openDropdown = dropdowns[i];
@@ -34,4 +47,3 @@
               }
             }
         </script>
-</div>
