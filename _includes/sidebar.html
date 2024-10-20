@@ -16,12 +16,9 @@
 
     <button onclick="myFunction(2)" class="dropbtn">Religion</button>
         <div id="myDropdown2" class="dropdown-content">
-            <a href="nimira.html">Nimira <strong>[Moon]</strong></a>
-            <a href="pyrrhus.html">Pyrrhus <strong>[Sun]</strong></a>
-            <a href="nivalis.html">Nivalis <strong>[Winter]</strong></a>
-            <a href="aurelia.html">Aurelia <strong>[Autumn]</strong></a>
-            <a href="torroavos.html">Torravos <strong>[Summer]</strong></a>
-            <a href="isaiwen.html">Isaiwen <strong>[Spring]</strong></a>
+            <a href="nimira.html">Nimira</a>
+            <a href="pyrrhus.html">Pyrrhus</a>
+            <a href="nivalis.html">Nivalis</a>
         </div>
 
         
@@ -37,7 +34,7 @@ function myFunction(num) {
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
-  var myDropdown = document.getElementById("myDropdown");
+  var myDropdown = document.getElementById("myDropdown" + num);
     if (myDropdown.classList.contains('show')) {
       myDropdown.classList.remove('show');
     }
