@@ -117,3 +117,9 @@
 .button2:hover {
     background-color: #2d321b;
 }
+
+.cool-line {
+    font-size: 18px;
+    color: #af5343;
+    font-weight: bolder;
+}
