@@ -1,1 +1,7 @@
-e
+@font-face {
+    font-family: 'universal_exploration';
+    src: url('universalexploration_personal_use_only-webfont.woff2') format('woff2'),
+         url('universalexploration_personal_use_only-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
