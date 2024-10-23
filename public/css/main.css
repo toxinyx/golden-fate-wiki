@@ -1,26 +1,3 @@
-/* fonts */
-@font-face {
-    font-family: 'autography';
-    src: url('autography-webfont.woff2') format('woff2'),
-         url('autography-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'old_englished_boots';
-    src: url('old_englished_boots-webfont.woff2') format('woff2'),
-         url('old_englished_boots-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'nostalgic_whispers';
-    src: url('nostalgicwhispers-regular-webfont.woff2') format('woff2'),
-         url('nostalgicwhispers-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* accents */
 table, th, td {
     padding: .5rem 1rem;
