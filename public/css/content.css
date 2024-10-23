@@ -20,6 +20,11 @@
     margin-top: -45px;
 }
 
+.boxxed-subtitle {
+    margin-top: -40px;
+    font-size: 13px;
+}
+
 .boxxed-content {
     margin-top: -70px;
     text-align: center;
