@@ -26,9 +26,31 @@
 }
 .boxxed-content2 {
     margin-top: -30px;
-    text-align: center;
+    text-align: left;
     font-family: "Times New Roman", serif;
     color: #241b0b;
     padding: 30px 30px 30px 30px;
 }
 
+/* Textiles */
+.headerone {
+    font-family: "universal_exploration", serif;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: -20px;
+    text-align: center;
+}
+
+.headertwo {
+    font-family: "heavitas", serif;
+    font-size: 16.5px;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.headerthree {
+    text-align: left;
+    font-family: "heavitas", serif;
+    font-size: 15px;
+    margin-bottom: -17px;
+}
