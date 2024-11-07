@@ -33,6 +33,14 @@
 }
 
 /* Textiles */
+.headerzero {
+    text-align: center;
+    font-weight: bold;
+    font-family: "heavitas", serif;
+    font-size: 40px;
+    margin-top: -45px;
+}
+    
 .headerone {
     font-family: "universal_exploration", serif;
     font-size: 35px;
